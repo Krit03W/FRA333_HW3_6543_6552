@@ -22,7 +22,10 @@ python3 .\testScript.py
 1.คำถามข้อที่ 1
 
 เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์ตัวนี้ให้อยู่ในฟังก์ชั่น endEffectorJacobianHW3(q)
-
+Jacobian เมทริกซ์ทั้งหมดประกอบด้วย:
 ![image](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)
 
+ซึ่ง 
+𝐽𝑣 คือ Jacobian เชิงเส้น และ 
+𝐽𝑤 คือ Jacobian เชิงมุม
 
