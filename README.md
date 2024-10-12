@@ -77,7 +77,7 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
     return J_e
 ```
 
-วิธีการเช็คคำตอบ
+**วิธีการเช็คคำตอบ**
 
 หา Jacobian จาก robotics-toolbox โดยสร้าง DH Parameter ของหุ่นยนต์ได้ดังนี้
 
@@ -95,7 +95,9 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 
 หาก det(𝐽𝑣)=0 หมายความว่าหุ่นยนต์ไม่สามารถสร้างความเร็วเชิงเส้นที่ปลายแขนหุ่นยนต์ (end-effector) ได้ครบทุกทิศทาง นั่นคือหุ่นยนต์อยู่ในสภาวะ Singularity
 
-ฟังก์ชั่นในการหาสภาวะ Singularity ของหุ่นยนต์ตัวนี้
+![image](https://github.com/user-attachments/assets/1d1badf3-34b3-49bf-ac20-972e3dfa0aa3)
+
+ฟังก์ชั่นในการหาสภาวะ Singularity ของหุ่นยนต์ :
 
 ```python
 def checkSingularityHW3(q: list[float]) -> int:
@@ -119,7 +121,7 @@ def checkSingularityHW3(q: list[float]) -> int:
 
 ```
 
-วิธีการเช็คคำตอบ
+**วิธีการเช็คคำตอบ**
 
 เช็คค่า determinant ด้วยการใช้ robotics-toolbox หากน้อยกว่าหรือเท่ากับ threshold แสดงว่าระบบหุ่นยนต์อยู่ในสถานะ Singularity
 
@@ -161,7 +163,7 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
     return tau.tolist()
 ```
 
-วิธีการเช็คคำตอบ
+**วิธีการเช็คคำตอบ**
 
 เช็คค่า torque จาก robotics-toolbox และเปรียบเทียบกับฟังก์ชันข้องต้น
 
@@ -169,17 +171,6 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
 
 ![image](https://github.com/user-attachments/assets/cdbbc511-e729-408e-8756-2ea75495b52c)
 
-# Jacobian Calculation
-This function computes the Jacobian matrix for a 3-DOF robotic arm, separating it into linear and angular components as follows:
-
-J = [ J_v ]
-    [ J_w ]
-
-Where:
-- J_v is the linear Jacobian that relates joint velocities to the linear velocity of the end-effector.
-- J_w is the angular Jacobian that relates joint velocities to the angular velocity of the end-effector.
-
-The combined Jacobian matrix J has a size of 6 x 3 for a 3-DOF robotic arm.
 
 
  
