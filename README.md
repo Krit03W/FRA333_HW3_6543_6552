@@ -23,6 +23,7 @@ python3 .\testScript.py
 ```
 
 **วิธีการทำงาน**
+
 ![image](https://github.com/user-attachments/assets/933ca00c-a2ce-4042-8c10-6528eba6bdfd)
 
 DH Parameter :
@@ -154,10 +155,8 @@ Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 
 **ผลลัพธ์ของการทดสอบ**
 
-![image](https://github.com/user-attachments/assets/c2249749-85e2-4fff-9c3a-f71f0ba56536)
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/77264948-06fc-4f3b-ae20-2903cfbcfd69](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29" alt="image" />
+  <img src="https://github.com/user-attachments/assets/c2249749-85e2-4fff-9c3a-f71f0ba56536" alt="image" />
 </p>
 
 จากผลการทดสอบจะเห็นได้ว่าค่า Singularity จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากัน จึงสามารถสรุปได้ว่าค่า Singularity ที่หาได้เป็นค่าที่ถูกต้อง
