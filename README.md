@@ -1,6 +1,6 @@
-# การคำนวณ Jacobian สำหรับหุ่นยนต์ RRR
+#FRA333_HW3_6543_6552
 
-### คำอธิบาย:
+### คำอธิบาย
 โปรเจคนี้ออกแบบมาเพื่อคำนวณเมทริกซ์ Jacobian ของหุ่นยนต์ RRR (Revolute-Revolute-Revolute) โดยมีสองฟังก์ชันที่สามารถใช้ในการคำนวณ Jacobian:
 1. `endEffectorJacobianHW3(q)` - ฟังก์ชันที่เขียนขึ้นเองสำหรับการคำนวณ Jacobian โดยใช้การคำนวณ Forward Kinematics
 2. `CheckJacobian(q)` - ฟังก์ชันมาตรฐานจากไลบรารี `roboticstoolbox` ที่ใช้ Denavit-Hartenberg parameters ในการคำนวณ Jacobian
