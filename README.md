@@ -130,6 +130,13 @@ def checkSingularityHW3(q: list[float]) -> int:
 
 ![image](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29)
 
+ # คำถามข้อที่ 3
+
+ เขียนฟังก์ชั่นในการหา effort ของแต่ละข้อต่อเมื่อมี wrench มากระทำกับจุดกึ่งกลางของเฟรมพิกัด Fe
+
+ 
+
+
 
 
 
