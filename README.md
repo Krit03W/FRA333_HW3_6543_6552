@@ -82,7 +82,7 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 
 ![image](https://github.com/user-attachments/assets/77264948-06fc-4f3b-ae20-2903cfbcfd69)
 
-  จากผลการทดสอบจะเห็นได้ว่า Jacobian Matrix ที่ได้จากการทำ DH Parameter มีค่าใกล้เคียงกับ Jacobian Matrix ที่หาได้จากฟังก์ชันข้างต้น จึงสามารถสรุปได้ว่า Jacobian Matrix ที่สามารถหาได้เป็นค่าที่ถูกต้อง
+จากผลการทดสอบจะเห็นได้ว่า Jacobian Matrix ที่ได้จากการทำ DH Parameter มีค่าใกล้เคียงกับ Jacobian Matrix ที่หาได้จากฟังก์ชันข้างต้น จึงสามารถสรุปได้ว่า Jacobian Matrix ที่สามารถหาได้เป็นค่าที่ถูกต้อง
 
  # คำถามข้อที่ 2 : เขียนฟังก์ชั่นในการหาสภาวะ Singularity 
 
@@ -133,6 +133,10 @@ Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 ผลลัพธ์ของการทดสอบ
 
 ![image](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29)
+
+จากผลการทดสอบจะเห็นได้ว่าค่า Singularity จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากับ จึงสามารถสรุปได้ว่าค่า Singularity ที่หาได้เป็นค่าที่ถูกต้อง
+
+จากผลการทดสอบจะเห็นได้ว่า Jacobian Matrix ที่ได้จากการทำ DH Parameter มีค่าใกล้เคียงกับ Jacobian Matrix ที่หาได้จากฟังก์ชันข้างต้น จึงสามารถสรุปได้ว่า Jacobian Matrix ที่สามารถหาได้เป็นค่าที่ถูกต้อง
 
  # คำถามข้อที่ 3 :  เขียนฟังก์ชั่นในการหา effort ของแต่ละข้อต่อเมื่อมี wrench มากระทำ
 
