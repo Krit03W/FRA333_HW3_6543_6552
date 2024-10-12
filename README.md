@@ -176,7 +176,7 @@ Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
   <img src="https://github.com/user-attachments/assets/f3b3974e-e4ab-4424-8896-2f0078af9d97" alt="image" />
 </p>
 
-จงเขียนฟังก์ชั่นในการหาeffort
+ฟังก์ชันในการหาค่า Torque ของหุ่นยนต์ :
 
 ```python
 def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
