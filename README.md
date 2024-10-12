@@ -95,7 +95,7 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 
 **วิธีการเช็คคำตอบ**
 
-หา Jacobian จาก robotics-toolbox จาก DH Parameter ของหุ่นยนต์ จากนั้นนำมาเปรียบเทียบกับค่า Jacobian จากฟังก์ชันที่หาได้
+หา Jacobian จาก robotics-toolbox จาก DH Parameter ของหุ่นยนต์ จากนั้นนำมาเปรียบเทียบกับค่า Jacobian จากฟังก์ชันที่หาได้ โดยหากผลลัพธ์จากฟังก์ชันข้างต้นและผลลัพธ์จาก robotics-toolbox มีค่าต่างกันไม่เกิน $$ 10^{-6} $$
 
 **ผลลัพธ์ของการทดสอบ**
 
@@ -149,7 +149,8 @@ def checkSingularityHW3(q: list[float]) -> int:
 
 **วิธีการเช็คคำตอบ**
 
-เช็คค่า determinant ด้วยการใช้ robotics-toolbox โดยหากน้อยกว่า threshold แสดงว่าระบบหุ่นยนต์อยู่ในสถานะ Singularity และถ้า determinant มากกว่าหรือเท่ากับ threshold แสดงว่าหุ่นยนต์ไม่อยู่ในสถานะ Singularity
+เช็คค่า determinant ด้วย Jacobian จากการใช้ robotics-toolbox โดยหากน้อยกว่า threshold แสดงว่าระบบหุ่นยนต์อยู่ในสถานะ Singularity และถ้า determinant มากกว่าหรือเท่ากับ threshold แสดงว่าหุ่นยนต์ไม่อยู่ในสถานะ Singularity
+และนำผลลัพธ์ที่ได้จากฟังก์ชันข้างต้นและผลลัพธ์จาก robotics-toolbox มาเปรียบเทียบว่ามีค่าตรงกันหรือไม่
 
 Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 
@@ -199,7 +200,7 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
 
 **วิธีการเช็คคำตอบ**
 
-เช็คค่า torque จาก robotics-toolbox และเปรียบเทียบกับฟังก์ชันข้างต้น
+เช็คค่า torque ด้วย Jacobian จากการใช้ robotics-toolbox และเปรียบเทียบกับฟังก์ชันข้างต้น 
 
 **ผลลัพธ์ของการทดสอบ**
 
