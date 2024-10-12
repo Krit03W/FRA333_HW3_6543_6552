@@ -74,6 +74,10 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
     # ส่งคืนค่า Jacobian J_e ซึ่งเป็นเมทริกซ์ขนาด 6x3 (ในรูปแบบลิสต์ของ float)
     return J_e
 ```
+```
+Input q : ค่ามุมของข้อต่อ 1 2 3
+Output J_e : ค่า Jacobian ของหุ่นยนต์
+```
 
 
 
