@@ -17,9 +17,8 @@ python3 .\testScript.py
 
 วิธีการทำงาน
 <p align="center">
-  <![image](https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74) />
+  <img src="https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74" />
 </p>
-
 
  # คำถามข้อที่ 1
 
