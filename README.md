@@ -21,6 +21,8 @@ python3 .\testScript.py
 
  # คำถามข้อที่ 1
 
+ เขียนฟังก์ชั่นในการ Jacobian ของหุ่นยนต์ตัวนี้
+
 Jacobian เมทริกซ์ทั้งหมดประกอบด้วย:
 
 ![image](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)
@@ -83,6 +85,10 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 ผลลัพธ์ของการทดสอบ
 
 ![image](https://github.com/user-attachments/assets/77264948-06fc-4f3b-ae20-2903cfbcfd69)
+
+ # คำถามข้อที่ 2
+
+ 
 
 
 
