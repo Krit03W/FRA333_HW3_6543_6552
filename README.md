@@ -120,6 +120,18 @@ def checkSingularityHW3(q: list[float]) -> int:
 
 ```
 
+วิธีการเช็คคำตอบ
+
+เช็คค่า determinant ด้วยการใช้ robotics-toolbox หากน้อยกว่าหรือเท่ากับ threshold แสดงว่าระบบหุ่นยนต์อยู่ในสถานะ Singularity
+
+และถ้า determinant มากกว่า threshold แสดงว่าหุ่นยนต์ไม่อยู่ในสถานะ Singularity
+
+ผลลัพธ์ของการทดสอบ
+
+![image](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29)
+
+
+
 
 
 
