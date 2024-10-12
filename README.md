@@ -78,7 +78,7 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 
 **วิธีการเช็คคำตอบ**
 
-หา Jacobian จาก robotics-toolbox โดยสร้าง DH Parameter ของหุ่นยนต์ได้ดังนี้
+หา Jacobian จาก robotics-toolbox โดยสร้าง DH Parameter ของหุ่นยนต์แล้วนำมาเทียบกับ Jacobian จากฟังก์ชันที่หาได้
 
 **ผลลัพธ์ของการทดสอบ**
 
