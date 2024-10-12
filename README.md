@@ -23,3 +23,6 @@ python3 .\testScript.py
 
 เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์ตัวนี้ให้อยู่ในฟังก์ชั่น endEffectorJacobianHW3(q)
 
+![image](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)
+
+
