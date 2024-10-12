@@ -20,14 +20,12 @@ python3 .\testScript.py
   <img src="https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74" />
 </p>
 
- # คำถามข้อที่ 1
-
- เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์ตัวนี้
+ # คำถามข้อที่ 1 : เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์
 
 Jacobian เมทริกซ์ทั้งหมดประกอบด้วย:
 
 <p align="center">
-  <img src="[https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)" />
+  <img src="https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b" />
 </p>
 
 𝐽𝑣 คือ Jacobian เชิงเส้น
