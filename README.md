@@ -37,7 +37,11 @@ Jacobian เมทริกซ์ทั้งหมดประกอบด้�
 
 ![image](https://github.com/user-attachments/assets/3476f2f5-f1c7-4026-8ee3-ae65d936f1eb)
 
-การคำนวณสำหรับหุ่น RRR
+การคำนวณสำหรับหุ่นยนต์ RRR
 
 ![image](https://github.com/user-attachments/assets/5ccfbd6b-305a-4fd5-af6c-a37545ecc3d2)
+
+
+
+
 
