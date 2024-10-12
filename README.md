@@ -168,7 +168,7 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
 
 **วิธีการเช็คคำตอบ**
 
-เช็คค่า torque จาก robotics-toolbox และเปรียบเทียบกับฟังก์ชันข้องต้น
+เช็คค่า torque จาก robotics-toolbox และเปรียบเทียบกับฟังก์ชันข้างต้น
 
 ผลลัพธ์ของการทดสอบ
 
