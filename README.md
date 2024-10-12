@@ -30,9 +30,7 @@ Jacobian เมทริกซ์ทั้งหมดประกอบด้�
   <img src="https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b" />
 </p>
 
-โดยที่ 𝐽𝑣 คือ Jacobian เชิงเส้น
-
-     𝐽𝑤 คือ Jacobian เชิงมุม
+โดยที่ 𝐽𝑣 คือ Jacobian เชิงเส้น และ 𝐽𝑤 คือ Jacobian เชิงมุม
 
 สูตรที่ใช้ในการคำนวณคือ
 
