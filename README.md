@@ -22,10 +22,7 @@ python3 .\testScript.py
 ```
 
 **วิธีการทำงาน**
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8f7998c3-15a3-453a-b3e0-d1177177c2ba](https://github.com/user-attachments/assets/c45683f9-b403-4857-a2c1-22b575280d32" alt="image" />
-</p>
+![image](https://github.com/user-attachments/assets/933ca00c-a2ce-4042-8c10-6528eba6bdfd)
 
 DH Parameter :
 
