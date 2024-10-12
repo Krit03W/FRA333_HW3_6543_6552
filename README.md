@@ -79,11 +79,11 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 
 ![image](https://github.com/user-attachments/assets/9e0e980a-5eff-4d25-8fbf-d76c129f18d6)
 
-ผลลัพธ์ของการทดสอบ
+**ผลลัพธ์ของการทดสอบ**
 
 ![image](https://github.com/user-attachments/assets/77264948-06fc-4f3b-ae20-2903cfbcfd69)
 
-จากผลการทดสอบจะเห็นได้ว่า Jacobian Matrix ที่ได้จากการทำ DH Parameter มีค่าใกล้เคียงกับ Jacobian Matrix ที่หาได้จากฟังก์ชันข้างต้น จึงสามารถสรุปได้ว่า Jacobian Matrix ที่สามารถหาได้เป็นค่าที่ถูกต้อง
+  จากผลการทดสอบจะเห็นได้ว่า Jacobian Matrix ที่ได้จากการทำ DH Parameter มีค่าใกล้เคียงกับ Jacobian Matrix ที่หาได้จากฟังก์ชันข้างต้น จึงสามารถสรุปได้ว่า Jacobian Matrix ที่สามารถหาได้เป็นค่าที่ถูกต้อง
 
  # คำถามข้อที่ 2 : เขียนฟังก์ชั่นในการหาสภาวะ Singularity 
 
