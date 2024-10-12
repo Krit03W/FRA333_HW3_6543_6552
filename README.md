@@ -175,18 +175,13 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
 # Jacobian Calculation
 This function computes the Jacobian matrix for a 3-DOF robotic arm, separating it into linear and angular components as follows:
 
-\[
-J = \begin{bmatrix} 
-J_v \\
-J_w 
-\end{bmatrix}
-\]
+J = [ J_v  (over J_w) ]
 
 Where:
-- \( J_v \) is the linear Jacobian that relates joint velocities to the linear velocity of the end-effector.
-- \( J_w \) is the angular Jacobian that relates joint velocities to the angular velocity of the end-effector.
+- J_v is the linear Jacobian that relates joint velocities to the linear velocity of the end-effector.
+- J_w is the angular Jacobian that relates joint velocities to the angular velocity of the end-effector.
 
-The combined Jacobian matrix \( J \) has a size of \( 6 \times 3 \) for a 3-DOF robotic arm.
+The combined Jacobian matrix J has a size of 6 x 3 for a 3-DOF robotic arm.
 
 
  
