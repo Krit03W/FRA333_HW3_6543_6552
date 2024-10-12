@@ -26,7 +26,9 @@ python3 .\testScript.py
 
 Jacobian เมทริกซ์ทั้งหมดประกอบด้วย:
 
-![image](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)
+<p align="center">
+  <img src="[https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)" />
+</p>
 
 𝐽𝑣 คือ Jacobian เชิงเส้น
 
