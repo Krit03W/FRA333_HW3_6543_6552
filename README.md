@@ -134,7 +134,7 @@ Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 
 ![image](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29)
 
-จากผลการทดสอบจะเห็นได้ว่าค่า Singularity จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากับ จึงสามารถสรุปได้ว่าค่า Singularity ที่หาได้เป็นค่าที่ถูกต้อง
+จากผลการทดสอบจะเห็นได้ว่าค่า Singularity จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากัน จึงสามารถสรุปได้ว่าค่า Singularity ที่หาได้เป็นค่าที่ถูกต้อง
 
 จากผลการทดสอบจะเห็นได้ว่า Jacobian Matrix ที่ได้จากการทำ DH Parameter มีค่าใกล้เคียงกับ Jacobian Matrix ที่หาได้จากฟังก์ชันข้างต้น จึงสามารถสรุปได้ว่า Jacobian Matrix ที่สามารถหาได้เป็นค่าที่ถูกต้อง
 
@@ -175,6 +175,8 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
 ผลลัพธ์ของการทดสอบ
 
 ![image](https://github.com/user-attachments/assets/cdbbc511-e729-408e-8756-2ea75495b52c)
+
+จากผลการทดสอบจะเห็นได้ว่าค่า Torque จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากัน จึงสามารถสรุปได้ว่าค่า Torque ที่หาได้เป็นค่าที่ถูกต้อง
 
 
 
