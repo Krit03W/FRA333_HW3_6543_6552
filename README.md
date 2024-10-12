@@ -1,6 +1,6 @@
 # FRA333 Homework Assignment 3: Static Force
 
-วิธีใช้
+**วิธีใช้**
 
 Run FRA333_HW3_6543_6552.py (ไฟล์นี้จะเก็บ Function สำหรับแก้ปัญหาข้อ 1 2 3)
 ```bash
@@ -15,7 +15,7 @@ Run testScript.py (ไฟล์นี้จะเป็นการทดสอ�
 python3 .\testScript.py
 ```
 
-วิธีการทำงาน
+**วิธีการทำงาน**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74" />
 </p>
@@ -30,9 +30,9 @@ Jacobian เมทริกซ์ทั้งหมดประกอบด้�
   <img src="https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b" />
 </p>
 
-𝐽𝑣 คือ Jacobian เชิงเส้น
+โดยที่ 𝐽𝑣 คือ Jacobian เชิงเส้น
 
-𝐽𝑤 คือ Jacobian เชิงมุม
+     𝐽𝑤 คือ Jacobian เชิงมุม
 
 สูตรที่ใช้ในการคำนวณคือ
 
