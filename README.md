@@ -19,7 +19,7 @@ python3 .\testScript.py
 
 ![image](https://github.com/user-attachments/assets/8f7998c3-15a3-453a-b3e0-d1177177c2ba)
 
-การหา DH Parameter :
+DH Parameter :
 
 ![image](https://github.com/user-attachments/assets/9e0e980a-5eff-4d25-8fbf-d76c129f18d6)
 
@@ -79,8 +79,6 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 **วิธีการเช็คคำตอบ**
 
 หา Jacobian จาก robotics-toolbox โดยสร้าง DH Parameter ของหุ่นยนต์ได้ดังนี้
-
-
 
 **ผลลัพธ์ของการทดสอบ**
 
