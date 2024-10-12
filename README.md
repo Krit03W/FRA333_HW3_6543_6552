@@ -134,7 +134,9 @@ Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 
 ผลลัพธ์ของการทดสอบ
 
-![image](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/77264948-06fc-4f3b-ae20-2903cfbcfd69](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29" alt="image" />
+</p>
 
 จากผลการทดสอบจะเห็นได้ว่าค่า Singularity จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากัน จึงสามารถสรุปได้ว่าค่า Singularity ที่หาได้เป็นค่าที่ถูกต้อง
 
@@ -174,7 +176,9 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
 
 ผลลัพธ์ของการทดสอบ
 
-![image](https://github.com/user-attachments/assets/cdbbc511-e729-408e-8756-2ea75495b52c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cdbbc511-e729-408e-8756-2ea75495b52c" alt="image" />
+</p>
 
 จากผลการทดสอบจะเห็นได้ว่าค่า Torque จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากัน จึงสามารถสรุปได้ว่าค่า Torque ที่หาได้เป็นค่าที่ถูกต้อง
 
