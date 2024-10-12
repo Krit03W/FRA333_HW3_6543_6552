@@ -26,6 +26,7 @@ Jacobian เมทริกซ์ทั้งหมดประกอบด้�
 ![image](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)
 
 ซึ่ง 
-𝐽𝑣 คือ Jacobian เชิงเส้น และ 
+𝐽𝑣 คือ Jacobian เชิงเส้น
+
 𝐽𝑤 คือ Jacobian เชิงมุม
 
