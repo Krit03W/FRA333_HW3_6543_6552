@@ -27,13 +27,14 @@ Jacobian เมทริกซ์ทั้งหมดประกอบด้�
 
 ![image](https://github.com/user-attachments/assets/3e547943-04d7-482d-9176-fd8ae1bb783b)
 
-ซึ่ง 
 𝐽𝑣 คือ Jacobian เชิงเส้น
 
 𝐽𝑤 คือ Jacobian เชิงมุม
 
 สูตรที่ใช้ในการคำนวณคือ
+
 ![image](https://github.com/user-attachments/assets/d1bf1b5c-be44-40f6-b1cf-61905f77eba0)
+
 ![image](https://github.com/user-attachments/assets/3476f2f5-f1c7-4026-8ee3-ae65d936f1eb)
 
 การคำนวณสำหรับหุ่น RRR
