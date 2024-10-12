@@ -17,29 +17,41 @@ python3 .\testScript.py
 
 **วิธีการทำงาน**
 
-![image](https://github.com/user-attachments/assets/8f7998c3-15a3-453a-b3e0-d1177177c2ba)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f7998c3-15a3-453a-b3e0-d1177177c2ba" alt="image" />
+</p>
 
 DH Parameter :
 
-![image](https://github.com/user-attachments/assets/9e0e980a-5eff-4d25-8fbf-d76c129f18d6)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9e0e980a-5eff-4d25-8fbf-d76c129f18d6" alt="image" />
+</p>
 
  # คำถามข้อที่ 1 : เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์
 
 Jacobian เมทริกซ์ทั้งหมดประกอบด้วย :
 
-![image](https://github.com/user-attachments/assets/cbcdb180-81dc-40f6-aacc-cf1719167d0e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cbcdb180-81dc-40f6-aacc-cf1719167d0e" alt="image" />
+</p>
 
 โดยที่ 𝐽𝑣 คือ Jacobian เชิงเส้น และ 𝐽𝑤 คือ Jacobian เชิงมุม
 
 สูตรการคำนวณ :
 
-![image](https://github.com/user-attachments/assets/d1bf1b5c-be44-40f6-b1cf-61905f77eba0)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1bf1b5c-be44-40f6-b1cf-61905f77eba0" alt="image" />
+</p>
 
-![image](https://github.com/user-attachments/assets/3476f2f5-f1c7-4026-8ee3-ae65d936f1eb)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3476f2f5-f1c7-4026-8ee3-ae65d936f1eb" alt="image" />
+</p>
 
 การคำนวณสำหรับหุ่นยนต์ RRR :
 
-![image](https://github.com/user-attachments/assets/5ccfbd6b-305a-4fd5-af6c-a37545ecc3d2)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5ccfbd6b-305a-4fd5-af6c-a37545ecc3d2" alt="image" />
+</p>
 
 ฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์ :
 ```python
@@ -92,13 +104,17 @@ def endEffectorJacobianHW3(q: list[float]) -> list[float]:
 
  ใช้ Determinant: สำหรับระบบที่มี 3DOF แบบข้อต่อหมุน สามารถตรวจสอบ Singularity ได้โดยการตรวจสอบว่า Determinant ของ Jacobian เชิงเส้น 𝐽𝑣 มีค่าเป็น 0 หรือไม่:
 
- ![image](https://github.com/user-attachments/assets/82866b94-f5ac-4ee6-8d72-316492efc798)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/82866b94-f5ac-4ee6-8d72-316492efc798" alt="image" />
+</p>
 
 หาก det(𝐽𝑣)=0 หมายความว่าหุ่นยนต์ไม่สามารถสร้างความเร็วเชิงเส้นที่ปลายแขนหุ่นยนต์ (end-effector) ได้ครบทุกทิศทาง นั่นคือหุ่นยนต์อยู่ในสภาวะ Singularity
 
 โดยในที่นี้กำหนดให้หุ่นยนต์อยู่ในสภาวะ Sigularity ก็ต่อเมื่อ
 
-![image](https://github.com/user-attachments/assets/1d1badf3-34b3-49bf-ac20-972e3dfa0aa3)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1d1badf3-34b3-49bf-ac20-972e3dfa0aa3" alt="image" />
+</p>
 
 โดยที่ค่า ε มีค่า 0.001
 
@@ -144,7 +160,9 @@ Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 
 แรงบิดที่ข้อต่อ (Torque) 𝜏 สามารถคำนวณได้จากสมการ:
 
-![image](https://github.com/user-attachments/assets/244f96de-de5d-4595-b456-3bf940951fd4)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/244f96de-de5d-4595-b456-3bf940951fd4" alt="image" />
+</p>
 
 โดย: 𝜏 คือแรงบิด (Torque) ที่ข้อต่อต่างๆ 𝐽𝑇 คือ Jacobian transpose (เมทริกซ์ Jacobian ที่ทำการ transpose)
 
