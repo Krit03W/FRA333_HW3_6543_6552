@@ -200,7 +200,7 @@ def computeEffortHW3(q: list[float], w: list[float]) -> list[float]:
 
 **วิธีการเช็คคำตอบ**
 
-เช็คค่า torque ด้วย Jacobian จากการใช้ robotics-toolbox และเปรียบเทียบกับฟังก์ชันข้างต้น 
+เช็คค่า torque ด้วย Jacobian จากการใช้ robotics-toolbox และเปรียบเทียบกับฟังก์ชันข้างต้น โดยหากผลลัพธ์จากฟังก์ชันข้างต้นและผลลัพธ์จาก robotics-toolbox มีค่าต่างกันไม่เกิน 10^-6 ให้สรุปได้ว่ามีค่าที่ตรงกัน
 
 **ผลลัพธ์ของการทดสอบ**
 
