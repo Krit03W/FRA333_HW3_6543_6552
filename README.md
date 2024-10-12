@@ -19,4 +19,7 @@ python3 .\testScript.py
 
 ![image](https://github.com/user-attachments/assets/e0c4cead-d46d-43dc-baa2-93bc8ba72a08)
 
-1.หา Jacobian ของหุ่นยนต์ตัวนี้
+1.คำถามข้อที่ 1
+
+เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์ตัวนี้ให้อยู่ในฟังก์ชั่น endEffectorJacobianHW3(q)
+
