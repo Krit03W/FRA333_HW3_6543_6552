@@ -20,7 +20,9 @@ python3 .\testScript.py
   <img src="https://github.com/user-attachments/assets/0907f196-5740-4f2b-a3df-04974e795c74" />
 </p>
 
- # คำถามข้อที่ 1 : เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์
+ # คำถามข้อที่ 1
+ 
+ เขียนฟังก์ชั่นในการหา Jacobian ของหุ่นยนต์
 
 Jacobian เมทริกซ์ทั้งหมดประกอบด้วย:
 
