@@ -126,9 +126,7 @@ def checkSingularityHW3(q: list[float]) -> int:
 
 **วิธีการเช็คคำตอบ**
 
-เช็คค่า determinant ด้วยการใช้ robotics-toolbox หากน้อยกว่าหรือเท่ากับ threshold แสดงว่าระบบหุ่นยนต์อยู่ในสถานะ Singularity
-
-และถ้า determinant มากกว่า threshold แสดงว่าหุ่นยนต์ไม่อยู่ในสถานะ Singularity
+เช็คค่า determinant ด้วยการใช้ robotics-toolbox หากน้อยกว่าหรือเท่ากับ threshold แสดงว่าระบบหุ่นยนต์อยู่ในสถานะ Singularity และถ้า determinant มากกว่า threshold แสดงว่าหุ่นยนต์ไม่อยู่ในสถานะ Singularity
 
 Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 
@@ -137,8 +135,6 @@ Note: ในโจทย์กำหนด threshold เท่ากับ 0.001
 ![image](https://github.com/user-attachments/assets/341350b9-7ff7-4383-9c73-550100bb3c29)
 
 จากผลการทดสอบจะเห็นได้ว่าค่า Singularity จากการทำ DH Parameter และจากฟังก์ชันที่หาได้นั้นมีค่าเท่ากัน จึงสามารถสรุปได้ว่าค่า Singularity ที่หาได้เป็นค่าที่ถูกต้อง
-
-จากผลการทดสอบจะเห็นได้ว่า Jacobian Matrix ที่ได้จากการทำ DH Parameter มีค่าใกล้เคียงกับ Jacobian Matrix ที่หาได้จากฟังก์ชันข้างต้น จึงสามารถสรุปได้ว่า Jacobian Matrix ที่สามารถหาได้เป็นค่าที่ถูกต้อง
 
  # คำถามข้อที่ 3 :  เขียนฟังก์ชั่นในการหา effort ของแต่ละข้อต่อเมื่อมี wrench มากระทำ
 
