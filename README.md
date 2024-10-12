@@ -1,15 +1,10 @@
 # FRA333 Homework Assignment 3: Static Force
 
-**การติดตั้ง**
-
-Install Robotics Toolbox
-````bash
-pip3 install roboticstoolbox-python
-````
-Install numpy
-````bash
-pip3 install numpy
-````
+**Library ที่จำเป็นต้องติดตั้ง**
+- **roboticstoolbox-python**
+- **numpy**
+- **spatialmath**
+- **math**
 
 **การใช้งาน**
 
